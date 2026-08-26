@@ -1,0 +1,49 @@
+# Nth Cycle
+
+> Nth Cycle is a critical mineral refining company headquartered in Beverly, Massachusetts. It
+> recovers production-grade nickel, cobalt, copper and rare earth elements from mined ore, low-grade
+> tailings and recycled industrial scrap using OYSTER, its patented modular electro-extraction
+> platform. Nth Cycle does not publish a public API, developer portal, SDK, or machine-readable
+> contract of any kind — it is a materials refining company, not an API provider.
+
+## About
+
+- [Nth Cycle](https://nthcycle.com/): Company home — critical mineral refining for batteries, magnets and semiconductors.
+- [The Platform](https://nthcycle.com/the-platform): OYSTER, a modular electro-extraction system combining electrochemistry, filtration and chemical precipitation in one continuous closed-loop architecture — roughly 70% lower capital intensity, 75% less waste, viable at 5-10x smaller scale than a centralized refinery.
+- [Why Refining Matters](https://nthcycle.com/why-refining-matters): The critical mineral supply-chain gap Nth Cycle targets.
+- [Team](https://nthcycle.com/team): Leadership and technical team.
+- [Careers](https://nthcycle.com/careers): Open roles.
+- [Contact](https://nthcycle.com/contact): Primary contact channel.
+
+## Markets
+
+- [Battery Materials](https://nthcycle.com/battery-materials): Nickel, cobalt and related battery feedstocks, including premium domestic MHP.
+- [Rare Earth Elements](https://nthcycle.com/rare-earth-elements): Rare earth refining, including the Ionic Rare Earths partnership.
+- [Copper](https://nthcycle.com/copper): Copper recovery and refining.
+
+## News
+
+- [Newsroom](https://nthcycle.com/newsroom): Company announcements.
+- [DOE selects Nth Cycle for award negotiations up to $100 million](https://nthcycle.com/newsroom/u.s.-department-of-energy-selects-nth-cycle-to-enter-award-negotiations-for-up-to-100-million-to-build-new-critical-mineral-refining-facility)
+- [NYSE listing via business combination with Kensington Capital Acquisition Corp. VI](https://nthcycle.com/newsroom/nth-cycle-inc.-a-pure-play-critical-mineral-refining-company-to-list-on-nyse-through-business-combination-with-kensington-capital-acquisition-corp.-vi)
+- [$1.1 billion offtake agreement with Trafigura](https://nthcycle.com/newsroom/nth-cycle-announces-landmark-1-1-billion-offtake-agreement-with-trafigura-expands-operations-in-us-and-europe)
+- [First domestic commercial-scale nickel and cobalt scrap refining system, Fairfield, Ohio](https://nthcycle.com/newsroom/nth-cycle-begins-operations-of-first-domestic-commercial-scale-nickel-an-cobalt-scrap-refining-system-in-fairfield-ohio)
+
+## Legal
+
+- [Terms and Conditions](https://nthcycle.com/terms-and-conditions)
+- [Privacy Policy](https://nthcycle.com/privacy-policy)
+
+## Elsewhere
+
+- [LinkedIn](https://www.linkedin.com/company/nthcycle)
+- [YouTube](https://www.youtube.com/channel/UCC9SWrGp_ME0Z5wfI95xDjg)
+- [GitHub](https://github.com/NthCycle): Organization exists but publishes zero public repositories.
+
+## API surface
+
+Probed 2026-08-26. No OpenAPI, Swagger, GraphQL, AsyncAPI, MCP server, A2A agent card, gRPC/Protobuf,
+WSDL, SDK, package-registry entry, or /.well-known document was found on any Nth Cycle host. No
+api., docs., developer. or app. subdomain resolves in DNS. There is nothing for an agent to call.
+
+- [API Evangelist profile](https://apis.io/provider/nth-cycle/)

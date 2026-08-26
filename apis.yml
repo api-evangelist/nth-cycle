@@ -1,17 +1,43 @@
 aid: nth-cycle
 name: Nth Cycle
-description: 'Nth Cycle is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  Nth Cycle is a critical mineral refining company headquartered in Beverly, Massachusetts, that
+  recovers production-grade nickel, cobalt, copper and rare earth elements from mined ore, low-grade
+  tailings and recycled industrial scrap. Its patented OYSTER platform uses electro-extraction — an
+  alternative to conventional hydrometallurgy and pyrometallurgy that combines electrochemistry,
+  filtration and chemical precipitation into a single continuous, closed-loop architecture — to
+  deliver modular refining at roughly 70% lower capital intensity, 75% less waste, and economic
+  viability at 5-10x smaller scale than a centralized refinery. Systems install inside existing
+  buildings and can be deployed in as little as two years including permitting, under licensing,
+  build-own-operate tolling, or multi-feedstock off-take models. The company operates the first
+  domestic commercial-scale nickel and cobalt scrap refining system in Fairfield, Ohio, holds a
+  $1.1 billion offtake agreement with Trafigura, was selected by the U.S. Department of Energy for
+  award negotiations of up to $100 million toward a new critical mineral refining facility, and has
+  announced a NYSE listing via business combination with Kensington Capital Acquisition Corp. VI.
+  Enrichment probing on 2026-08-26 found no public developer API, OpenAPI/Swagger/GraphQL/AsyncAPI
+  contract, developer portal, SDK or package-registry entry, CLI, MCP server, A2A agent card,
+  gRPC/Protobuf or WSDL contract, webhook surface, or served /.well-known document — Nth Cycle is a
+  materials refining company, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/nth-cycle/refs/heads/main/apis.yml
+image: https://framerusercontent.com/assets/GgNzafIFFdvzcB762fj4xDBs20.jpg
 x-type: company
 x-source: harvest:secondary-market
-x-tier: stub
+x-tier: profiled
 x-tier-reason: harvest
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-08-26'
 modified: '2026-08-26'
 tags:
 - Company
+- Critical Minerals
+- Mining
+- Recycling
+- Battery Materials
+- Rare Earth Elements
+- Copper
+- Advanced Manufacturing
+- Clean Energy
+- Industrial
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +46,47 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://nthcycle.com/
+- type: Blog
+  url: https://nthcycle.com/newsroom
+- type: Support
+  url: https://nthcycle.com/contact
+- type: Careers
+  url: https://nthcycle.com/careers
+- type: TermsOfService
+  url: https://nthcycle.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://nthcycle.com/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/NthCycle
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nthcycle
+- type: Youtube
+  url: https://www.youtube.com/channel/UCC9SWrGp_ME0Z5wfI95xDjg
+- type: DomainSecurity
+  url: security/nth-cycle-domain-security.yml
+- type: LLMsTxt
+  url: llms/nth-cycle-llms.txt
+x-enrichment:
+  date: '2026-08-26'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    Nth Cycle refines physical metal — its product is nickel, cobalt, copper and rare earth output
+    from the OYSTER electro-extraction system — and its entire web presence is a 16-page Framer
+    marketing site whose sitemap contains no developer, docs or API page; no api./docs./developer./app.
+    subdomain resolves in DNS, and the company GitHub organization publishes zero public repositories.
+  evidence:
+  - url: https://nthcycle.com/sitemap.xml
+    status: 200
+  - url: https://nthcycle.com/openapi.json
+    status: 404
+  - url: https://nthcycle.com/.well-known/agent-card.json
+    status: 404
+  - url: https://api.github.com/orgs/NthCycle/repos
+    status: 200
+  checked: '2026-08-26'

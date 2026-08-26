@@ -1,0 +1,32 @@
+generated: '2026-08-26'
+method: probed
+source: live GET of /.well-known/* on the only host Nth Cycle operates (nthcycle.com)
+note: >-
+  Every probed path returned a real HTTP 404 with a 10-byte "Not found" body. A control
+  probe of a nonsense path under the same namespace also returned 404/10 bytes, confirming
+  the origin is NOT a soft-404 catch-all and these are genuine absences rather than an SPA
+  answering 200 for everything. Nth Cycle is a critical mineral refining company whose web
+  presence is a Framer-hosted marketing site; no api./docs./developer./app. subdomain
+  resolves in DNS. NO WellKnown or SecurityTxt pointer is emitted — nothing was served.
+hit_count: 0
+soft_404_control:
+  path: /.well-known/ae-soft404-control-xyz123
+  status: 404
+  bytes: 10
+hosts:
+- host: https://nthcycle.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
