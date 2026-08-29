@@ -19,6 +19,17 @@ description: >-
   gRPC/Protobuf or WSDL contract, webhook surface, or served /.well-known document — Nth Cycle is a
   materials refining company, not an API provider.
 url: https://raw.githubusercontent.com/api-evangelist/nth-cycle/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 image: https://framerusercontent.com/assets/GgNzafIFFdvzcB762fj4xDBs20.jpg
 x-type: company
 x-source: harvest:secondary-market
